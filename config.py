@@ -1,8 +1,8 @@
 # CONSTANTS
-avanzaUsername = "AVANZA_USERNAME"
-avanzaPassword = "AVANZA_PASSWORD"
-totpSecret = "AVANZA_TOPT_SECRET"
-accountID = "AVANZA_ACCOUNT_ID"
+avanzaUsername = "adambrodin"
+avanzaPassword = ""
+totpSecret = ""
+accountID = ""
 updateIntervalSeconds = (
     120  # How often the wallpaper refreshes (too low values will cause API issues)
 )
