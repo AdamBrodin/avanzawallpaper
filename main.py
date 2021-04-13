@@ -1,14 +1,11 @@
+import os
+import ctypes
+import time
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-import ctypes
-import time
 from avanza import Avanza
-import datetime
-import hashlib
-import pyotp
 import config
-import os
 
 # Account details
 avanza = Avanza(
