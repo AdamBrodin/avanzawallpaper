@@ -1,9 +1,8 @@
 # CONSTANTS
 avanzaUsername = "AVANZA_USERNAME"
 avanzaPassword = "AVANZA_PASSWORD"
-totpSecret = "AVANZA_TOPT_SECRET"
-accountID = "AVANZA_ACCOUNT_ID"
-updateIntervalSeconds = (
-    120  # How often the wallpaper refreshes (too low values will cause API issues)
-)
+totpSecret = "TOPT_SECRET"
+accountID = "ACCOUNT_ID"
+# How often the wallpaper refreshes (too low values will cause API issues)
+updateIntervalSeconds = 120
 backgroundColor = (0, 0, 255)
