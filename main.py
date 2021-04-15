@@ -18,7 +18,7 @@ avanza = Avanza(
 
 while True:
     try:
-        overview = avanza.get_account_overview(config.totpSecret)
+        overview = avanza.get_account_overview(config.accountID)
         ownedCapital = str(int(overview["ownCapital"]))
         balanceText = ownedCapital + " sek"
 
